@@ -5,8 +5,8 @@ import cv2
 
 detector = MTCNN()
 
-video_dir = 'E:/Formatöncesi/Celeb-DF-v2/Celeb-real/'  # Video dosyalarının bulunduğu dizin
-output_dir = 'E:/bitirme-projesi/Celeb-DF-v2/Celeb-real/frame'  # Frame'lerin kaydedileceği dizin
+video_dir =  # Video dosyalarının bulunduğu dizin
+output_dir =  # Frame'lerin kaydedileceği dizin
 
 # Çıktı dizinini oluştur
 if not os.path.exists(output_dir):
@@ -63,4 +63,5 @@ for file_name in os.listdir(video_dir):
             file.write(result_text + '\n')
 
        
+
 print("İşlem tamamlandı.")
